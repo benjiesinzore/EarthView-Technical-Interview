@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Main Activity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edt_width"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btGetUnique"
+        android:gravity="center"
+        android:text="Get Unique Values from Array"
+        android:textAlignment="center"
+        android:background="@drawable/txbox_bg"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+
+
+    <TextView
+        android:id="@+id/btAddData"
+        android:gravity="center"
+        android:text="Add Customer Meter Data"
+        android:textAlignment="center"
+        android:background="@drawable/txbox_bg"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+
+    <TextView
+        android:id="@+id/btViewData"
+        android:gravity="center"
+        android:text="View Customer Meter Data"
+        android:textAlignment="center"
+        android:background="@drawable/txbox_bg"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+</LinearLayout>
